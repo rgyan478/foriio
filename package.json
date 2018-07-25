@@ -29,5 +29,9 @@
   "dependencies": {
     "axios": "^0.18.0",
     "react-router-dom": "^4.3.1"
-  }
+  },
+  "engines": {
+    "node": "9.5.0",
+    "npm": "5.7.1"
+  } 
 }
