@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1">   
+    <title>foriio</title>
+    <link rel="shortcut icon" type="image/x-icon" href="./src/images/favicon.png">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"  
+    crossorigin="anonymous">
+    <script type="text/javascript">
+        $(document).ready(function () {
+            setTimeout(function () {
+            $('.loading-image').removeClass('loading-image');
+            }, 2000);
+            $(".loading-image").append("<div class='spinner'><div class='double-bounce1'></div><div class='double-bounce2'></div></div>");
+    
+        });
+</script>
+</head>
+
+<body>   
+    <div id="root_container">        
+    </div>     
+</body>
+</html>
